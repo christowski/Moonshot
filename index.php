@@ -66,7 +66,7 @@
     <div class="container">
       <div class="content">
         <h2>Über das Spiel</h2>
-        <p>Moonshot macht den Innovationsprozess spielerisch erfahrbar. Die SpielerInnen treten mit ihren Ideen gegeneinander an und transformieren sie fortwährend entlang von unterschiedlichen <span>Kreativitätstechniken.</span> Das erfordert assoziatives Denken, eine hohe Revisionskompetenz und die Bereitschaft, sich ständig auf wechselnde Rahmenbedingungen einzulassen. So entsteht ein Flirren, das den SpielerInnen radikal neue Perspektiven auf ihre Ideen eröffnet und zuvor Ungesehenes an die Oberfläche wirbelt.</p>
+        <p>Moonshot macht den Innovationsprozess spielerisch erfahrbar. Die SpielerInnen treten mit ihren Ideen gegeneinander an und transformieren sie fortwährend anhand von unterschiedlichen <span>Kreativitätstechniken.</span> Das erfordert assoziatives Denken, eine hohe Revisionskompetenz und die Bereitschaft, sich ständig auf wechselnde Rahmenbedingungen einzulassen. So entsteht ein Flirren, das den SpielerInnen radikal neue Perspektiven auf ihre Ideen eröffnet und zuvor Ungesehenes an die Oberfläche wirbelt.</p>
 
         <p>Ziel von Moonshot ist es nicht, marktreife Produkte zu produzieren, sondern <span>Metakompetenzen</span> zu vermitteln, die für schöpferische Prozesse in komplexen Zeiten unabdingbar sind. Und wenn doch mal das nächste Unicorn dabei ist: umso besser.</p>
       </div>
@@ -102,7 +102,7 @@
       <div class="content content-wide content-contact">
         <img src="media/rocket.png" alt="Illustration of a rocket">
         <h2>Kontakt</h2>
-        <p>Du willst Moonshot in deinem Unternehmen spielen? Du willst das Spiel künftig auch in eigenen Workshops verwenden? Du willst privat eine Spielrunde organisieren? Moonshot ist für Konzerne, Start-ups, Agenturen, Beratungen, Coaches und Privatpersonen geeignet. Sag Hi!</p>
+        <p>Du willst Moonshot in deinem Unternehmen spielen? Du willst das Spiel künftig auch in eigenen Workshops verwenden? Du willst privat eine Spielrunde organisieren? Moonshot ist für Konzerne, Start-ups, Agenturen, Beratungen, Coaches und Privatpersonen geeignet.</p>
 
         <!-- Encoder: http://robspangler.com/blog/encrypt-mailto-links-to-stop-email-spam/ -->
         <p class="contact-cta">
