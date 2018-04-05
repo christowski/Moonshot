@@ -41,7 +41,7 @@
       <div class="content">
         <h2>Impressum</h2>
         <p>Angaben gemäß § 5 TMG:<br>
-          PROTO GbR<br>
+          Playful Business GbR<br>
           Mindener Str. 13<br>
           10589 Berlin
         </p>

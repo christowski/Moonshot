@@ -131,7 +131,7 @@
     </div>
 
     <footer>
-      <p>&copy; <?php echo date("Y"); ?> Martin Wiens, Till Hasbach. <a title="Impressum" href="impressum.php">Impressum</a>.</p>
+      <p>&copy; <?php echo date("Y"); ?> Martin Wiens, Till Hasbach – Playful Business GbR. <a title="Impressum" href="impressum.php">Impressum</a>.</p>
     </footer>
 
   </div> <!-- //#wrapper -->
