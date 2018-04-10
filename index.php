@@ -111,6 +111,27 @@
       </div>
     </div>
 
+    <div class="container container-violet container-newsletter">
+      <div class="content content-newsletter">
+        <h2>Newsletter</h2>
+        <p>Trage dich für unseren Newsletter ein, um auf dem Laufenden zu bleiben.</p>
+        <div class="form-wrapper">
+          <form
+            action="https://buttondown.email/api/emails/embed-subscribe/Moonshot"
+            method="post"
+            target="popupwindow"
+            onsubmit="window.open('https://buttondown.email/Moonshot', 'popupwindow')"
+            class="embeddable-buttondown-form"
+          >
+            <input type="email" name="email" id="bd-email" placeholder="Deine Mail-Adresse" />
+            <input type="hidden" value="1" name="embed"/>
+            <button class="cta" type="submit">Anmelden</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
     <div class="container container-yellow">
       <div class="content content-wide">
         <blockquote>

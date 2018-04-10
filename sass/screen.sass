@@ -48,6 +48,8 @@ footer
   color: $silver
   background: url("../media/stars-bg.jpg") $primary
   background-size: cover
+  h2
+    color: $white
 
 // -------- Container Yellow Styles --------
 
@@ -177,20 +179,63 @@ a:hover, a:focus
 
 p.contact-cta a,
 p.contact-cta a:active,
-p.contact-cta a:visited
+p.contact-cta a:visited,
+button.cta,
+button.cta:active,
+button.cta:visited
   background: $primary
+  border: none
   color: white
-  box-shadow: 0 20px 20px 0 rgba(0,0,0,0.1)
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1)
   padding: 0.9rem 1.3rem 1rem
   margin: 1rem 0 1rem 0
   display: inline-block
   text-decoration: none
   border-radius: 8px
   transition: all ease 200ms
+  font-size: inherit
+  line-height: 1rem
+
 p.contact-cta a:focus,
-p.contact-cta a:hover
+p.contact-cta a:hover,
+button.cta:focus,
+button.cta:hover
   background: $charcoal
   transform: translateY(-2px)
+  cursor: pointer
+
+.container-newsletter
+  padding-top: 4em
+  padding-bottom: 6em
+  border-bottom: 2px solid $white
+
+button.cta
+  margin: 0
+
+.form-wrapper
+  background: $white
+  padding: 0.75em 1em
+  border-radius: 8px
+  display: inline-block
+  margin: 1rem 0 0 0
+
+input
+  outline: none
+  border: 0
+  border-bottom: 2px solid rgba($charcoal, 0.2)
+  padding: 0.9rem 0 0.9rem 0.3rem
+  font-size: inherit
+  margin-right: 0.75rem
+  &:focus, &:active
+    border-color: $primary
+
+input[type="email"]
+  display: inline-block
+  width: 120px
+  font-size: 0.75rem
+  @media (min-width: $breakpoint-medium)
+    font-size: 1em
+    width: 220px
 
 
 blockquote p
