@@ -127,7 +127,7 @@
               >
                 <input type="email" name="email" id="bd-email" placeholder="Deine Mail-Adresse" />
                 <input type="hidden" value="1" name="embed"/>
-                <button class="cta" type="submit">Anmelden</button>
+                <button class="cta" type="submit" title="Melde dich für den Newsletter an">Anmelden</button>
               </form>
             </div>
 
