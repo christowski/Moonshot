@@ -102,7 +102,7 @@
       <div class="content content-wide content-contact">
         <img src="media/rocket.png" alt="Illustration of a rocket">
         <h2>Kontakt</h2>
-        <p>Du willst Moonshot in deinem Unternehmen spielen? Du willst das Spiel künftig auch in eigenen Workshops verwenden? Du willst privat eine Spielrunde organisieren? Moonshot ist für Konzerne, Start-ups, Agenturen, Beratungen, Coaches und Privatpersonen geeignet.</p>
+        <p>Du willst Moonshot in deinem Unternehmen spielen? Du willst mit uns kooperieren und das Spiel in einem Workshop einsetzen?</p>
 
         <!-- Encoder: http://robspangler.com/blog/encrypt-mailto-links-to-stop-email-spam/ -->
         <p class="contact-cta">
