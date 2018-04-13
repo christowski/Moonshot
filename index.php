@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <meta name="description" content="Innovation lässt sich spielen! Das Innovationsspiel Moonshot macht kreative Prozesse für Unternehmen und Startups spielbar und fördert mit zahlreichen Tools und Challenges ein adaptives Mindset." />
-  <meta name="author" content="Martin Wiens, Till hasbach" />
+  <meta name="author" content="Martin Wiens, Till Hasbach" />
   <meta name="keywords" content="Innovation, innovativ, Gamification, Playful Business, Innovationsspiel, Innovationsprozess, Moonshot, Kreativitätstechniken, Kreativität, Tools, Toolbox, Design Thinking, Startup, Workshop, Spiel, Unternehmen, Agilität, Mindset, adaptives Mindset, Brainstorming, brainstorm, game, disruptiv, Disruption, Kribbeln im Kopf, maker, Moon, Moonshot Thinking, Entrepreneur, Methodik, erfinden, Erfindung, Werkstatt, Knete, ludisch, Serendipität, Serendipity, Glück, Idee, Agentur, Proto, prototyp, Dragon Dreaming, Assoziation, Brainwriting, Open Innovation, Pitch" />
 
   <meta property="og:url" content="www.innovationgame.de" />
@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/top2kgq.css">
 
   <!-- JAVSCRIPT -->
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116548844-1"></script>
@@ -30,7 +31,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-116548844-1');
   </script>
 
@@ -39,6 +39,8 @@
 <body>
   <div id="wrapper">
     <header>
+      <div class="particles-js" id="particles-js">
+      </div>
       <div class="container">
         <h1 class="logo">
           <img src="media/moonshot-logo.svg" alt="Moonshot Logo" title="Moonshot – The Innovation Game">
@@ -164,4 +166,8 @@
 
   </div> <!-- //#wrapper -->
 </body>
+<script>
+  // integrate particles.js
+  particlesJS("particles-js", {"particles":{"number":{"value":500,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":2,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":3.206824121731046,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":70,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+</script>
 </html>
