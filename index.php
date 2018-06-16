@@ -93,41 +93,14 @@
 
     <div class="container">
       <div class="content content-wide content-contact">
+        <img src="media/rocket.png" alt="Illustration of a rocket">
+        <h2>Kontakt</h2>
+        <p>Du willst Moonshot in deinem Unternehmen spielen? Du willst mit uns kooperieren und das Spiel in einem Workshop einsetzen?</p>
 
-        <div class="contact-container">
-
-          <div class="contact-box">
-            <h2>Kontakt</h2>
-            <p>Du willst Moonshot in deinem Unternehmen spielen? Du willst mit uns kooperieren und das Spiel in einem Workshop einsetzen?</p>
-
-            <!-- Encoder: http://robspangler.com/blog/encrypt-mailto-links-to-stop-email-spam/ -->
-            <p class="contact-cta">
-              <a title="Schreib’ uns eine Mail" href="&#x6d;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#104;&#101;&#108;&#108;&#111;&#x40;&#116;&#x68;&#101;&#105;&#110;&#110;&#x6f;&#118;&#x61;&#116;&#x69;&#x6f;&#110;&#103;&#x61;&#x6d;&#101;&#46;&#100;&#x65;">Schreib’ uns eine Mail</a>
-            </p>
-          </div> <!-- Contactbox -->
-
-          <div class="newsletter-box">
-            <h2>Newsletter</h2>
-            <p>Abonniere den <em>Moonshot</em> Newsletter, um auf dem Laufenden zu bleiben und das Spiel genauer kennenzulernen.</p>
-
-            <div class="form-wrapper">
-              <form
-                action="https://buttondown.email/api/emails/embed-subscribe/Moonshot"
-                method="post"
-                target="popupwindow"
-                onsubmit="window.open('https://buttondown.email/Moonshot', 'popupwindow')"
-                class="embeddable-buttondown-form"
-              >
-                <input type="email" name="email" id="bd-email" placeholder="Deine Mail-Adresse" />
-                <input type="hidden" value="1" name="embed"/>
-                <button class="cta" type="submit" title="Melde dich für den Newsletter an">Anmelden</button>
-              </form>
-            </div>
-
-          </div> <!-- Nesletterbox -->
-
-        </div> <!-- Contaxtbox Grid -->
-
+        <!-- Encoder: http://robspangler.com/blog/encrypt-mailto-links-to-stop-email-spam/ -->
+        <p class="contact-cta">
+          <a title="Schreib’ uns eine Mail" href="&#x6d;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#104;&#101;&#108;&#108;&#111;&#x40;&#116;&#x68;&#101;&#105;&#110;&#110;&#x6f;&#118;&#x61;&#116;&#x69;&#x6f;&#110;&#103;&#x61;&#x6d;&#101;&#46;&#100;&#x65;">Schreib’ uns eine Mail</a>
+        </p>
       </div>
     </div>
 
