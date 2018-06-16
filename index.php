@@ -67,27 +67,43 @@
 
     <div class="container container-silver">
       <div class="content-superwide">
+
         <div class="content">
           <h2 style="text-align: center;">Ein Blick in die Karten</h2>
         </div>
 
         <div class="card-container">
+
           <div class="card1">
             <img src="media/moonshot-card-challenge.png" alt="Moonshot Challenge-Karte">
-            <h3>40 Challenge-Karten</h3>
-            <p>Die Challenge-Karten eröffnen in dichten Mikronarrationen überraschende Szenarien und bringen die SpielerInnen dazu, ihre Ideen fortwährend zu transformieren.</p>
           </div>
+
           <div class="card2">
-            <img src="media/moonshot-card-item.png" alt="Moonshot Item-Karte">
+            <img src="media/moonshot-card-challenge.png" alt="Moonshot Challenge-Karte">
+          </div>
+
+          <div class="card-description-1">
             <h3>60 Item-Karten</h3>
             <p>Mit den Item-Karten können die SpielerInnen in den Fluss des Spiels eingreifen, sich selbst verstärken und andere SpielerInnen hacken.</p>
           </div>
+
           <div class="card3">
-            <img src="media/moonshot-card-aktion.png" alt="Moonshot Aktions-Karte">
+            <img src="media/moonshot-card-item.png" alt="Moonshot Item-Karte">
+          </div>
+
+          <div class="card4">
+            <img src="media/moonshot-card-item.png" alt="Moonshot Item-Karte">
+          </div>
+
+          <div class="card-description-2">
             <h3>10 Aktions-Karten</h3>
             <p>Die Aktionskarten sind äußere Störfaktoren, die das Spiel durcheinanderwirbeln und die SpielerInnen aus ihren Routinen herausreißen.</p>
           </div>
-        </div>
+
+        </div> <!-- // card-container -->
+      </div> <!-- // content-superwide -->
+    </div> <!-- // container -->
+
       </div>
     </div>
 
