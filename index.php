@@ -104,6 +104,34 @@
       </div> <!-- // content-superwide -->
     </div> <!-- // container -->
 
+    <div class="container container-violet">
+      <div class="content content-wide">
+        <h2>Plans</h2>
+
+        <div class="plan-container">
+
+          <div class="plan-section1">
+            <h2 style="text-align: center;">Basic</h2>
+            <img src="media/ufo-basic.svg" alt="Illustration of a normal UFO">
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+            </ul>
+          </div>
+
+          <div class="plan-section2">
+            <h2 style="text-align: center;">Plus</h2>
+            <img src="media/ufo-plus.svg" alt="Illustration of a flying UFO">
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+            </ul>
+          </div>
+
+        </div> <!-- // plan-container -->
+
       </div>
     </div>
 
