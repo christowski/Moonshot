@@ -104,3 +104,34 @@
   margin-bottom: 0.4rem
   font-weight: bold
   font-size: 1rem
+
+// ----------------
+
+.plan-container
+  grid-gap: 3rem
+
+.plan-section1
+  grid-column-start: 1
+  grid-column-end: span 6
+
+.plan-section2
+  grid-column-start: 7
+  grid-column-end: span 6
+
+.plan-section1,
+.plan-section2
+  padding: 1rem
+  background: $primary
+  border: 1px solid rgba(255,255,255,0.3)
+  border-radius: 8px
+  box-shadow: 0 30px 40px 0 rgba(0,0,0,0.07)
+  transition: all ease 200ms
+  &:hover
+    transform: translateY(-3px) scale(1.01)
+
+
+.plan-section1,
+.plan-section2
+  img
+    margin: 0 auto 2rem auto
+    display: block
