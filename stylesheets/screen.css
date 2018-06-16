@@ -250,17 +250,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.07);
-  transition: all ease 200ms;
 }
 /* line 129, ../sass/grid.sass */
-.plan-section1:hover,
-.plan-section2:hover {
+.plan-section1:hover img,
+.plan-section2:hover img {
   transform: translateY(-3px) scale(1.01);
 }
 
 /* line 135, ../sass/grid.sass */
 .plan-section1 img,
 .plan-section2 img {
+  transition: all ease 200ms;
   margin: 0 auto 2rem auto;
   display: block;
 }
@@ -553,29 +553,30 @@ ul {
 /* line 199, ../sass/screen.sass */
 ul li {
   margin-bottom: 0.75rem;
+  margin-left: 1.2rem;
 }
 
-/* line 206, ../sass/screen.sass */
+/* line 207, ../sass/screen.sass */
 .content-contact h2 {
   text-align: left;
   margin-bottom: 1rem;
 }
 
-/* line 210, ../sass/screen.sass */
+/* line 211, ../sass/screen.sass */
 .content-contact img {
   float: left;
   margin: 0 1rem 0.5rem 0;
   max-width: 100px;
 }
 @media (min-width: 768px) {
-  /* line 210, ../sass/screen.sass */
+  /* line 211, ../sass/screen.sass */
   .content-contact img {
     max-width: 130px;
     margin: 1rem 3rem 0 0;
   }
 }
 
-/* line 218, ../sass/screen.sass */
+/* line 219, ../sass/screen.sass */
 p.contact-cta a,
 p.contact-cta a:active,
 p.contact-cta a:visited,
@@ -596,7 +597,7 @@ button.cta:visited {
   line-height: 1rem;
 }
 @media (min-width: 768px) {
-  /* line 218, ../sass/screen.sass */
+  /* line 219, ../sass/screen.sass */
   p.contact-cta a,
   p.contact-cta a:active,
   p.contact-cta a:visited,
@@ -608,7 +609,7 @@ button.cta:visited {
   }
 }
 
-/* line 240, ../sass/screen.sass */
+/* line 241, ../sass/screen.sass */
 p.contact-cta a:focus,
 p.contact-cta a:hover,
 button.cta:focus,
@@ -618,12 +619,12 @@ button.cta:hover {
   cursor: pointer;
 }
 
-/* line 252, ../sass/screen.sass */
+/* line 253, ../sass/screen.sass */
 .contact-container {
   max-width: 1200px;
 }
 @media (min-width: 420px) {
-  /* line 252, ../sass/screen.sass */
+  /* line 253, ../sass/screen.sass */
   .contact-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -632,13 +633,13 @@ button.cta:hover {
   }
 }
 
-/* line 260, ../sass/screen.sass */
+/* line 261, ../sass/screen.sass */
 .contact-box {
   border-bottom: 1px solid #CCCCCF;
   margin-bottom: 1.5rem;
 }
 @media (min-width: 420px) {
-  /* line 260, ../sass/screen.sass */
+  /* line 261, ../sass/screen.sass */
   .contact-box {
     grid-column: 1;
     border-right: 1px solid #CCCCCF;
@@ -648,40 +649,40 @@ button.cta:hover {
   }
 }
 @media (min-width: 768px) {
-  /* line 260, ../sass/screen.sass */
+  /* line 261, ../sass/screen.sass */
   .contact-box {
     padding-right: 3em;
   }
 }
 
 @media (min-width: 420px) {
-  /* line 272, ../sass/screen.sass */
+  /* line 273, ../sass/screen.sass */
   .newsletter-box {
     grid-column: 2;
     padding-left: 1em;
   }
 }
 @media (min-width: 768px) {
-  /* line 272, ../sass/screen.sass */
+  /* line 273, ../sass/screen.sass */
   .newsletter-box {
     padding-left: 3em;
   }
 }
 
-/* line 282, ../sass/screen.sass */
+/* line 283, ../sass/screen.sass */
 img.proto-portrait {
   max-width: 240px;
   margin: 0 auto 1.5rem auto;
   display: block;
 }
 @media (min-width: 420px) {
-  /* line 282, ../sass/screen.sass */
+  /* line 283, ../sass/screen.sass */
   img.proto-portrait {
     margin: 0 0 1.5rem 0;
   }
 }
 @media (min-width: 768px) {
-  /* line 282, ../sass/screen.sass */
+  /* line 283, ../sass/screen.sass */
   img.proto-portrait {
     float: right;
     opacity: 0.8;

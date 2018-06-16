@@ -250,17 +250,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.07);
-  transition: all ease 200ms;
 }
 /* line 129, ../sass/grid.sass */
-.plan-section1:hover,
-.plan-section2:hover {
+.plan-section1:hover img,
+.plan-section2:hover img {
   transform: translateY(-3px) scale(1.01);
 }
 
 /* line 135, ../sass/grid.sass */
 .plan-section1 img,
 .plan-section2 img {
+  transition: all ease 200ms;
   margin: 0 auto 2rem auto;
   display: block;
 }
