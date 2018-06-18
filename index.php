@@ -75,29 +75,29 @@
         <div class="card-container">
 
           <div class="card1">
-            <img src="media/moonshot-card-challenge.png" alt="Moonshot Challenge-Karte">
+            <img src="media/moonshot-card-challenge-1.jpg" alt="Moonshot Challenge-Karte">
           </div>
 
           <div class="card2">
-            <img src="media/moonshot-card-challenge.png" alt="Moonshot Challenge-Karte">
+            <img src="media/moonshot-card-challenge-2.jpg" alt="Moonshot Challenge-Karte">
           </div>
 
           <div class="card-description-1">
-            <h3>60 Item-Karten</h3>
-            <p>Mit den Item-Karten können die SpielerInnen in den Fluss des Spiels eingreifen, sich selbst verstärken und andere SpielerInnen hacken.</p>
+            <h3>40 Challenge-Karten</h3>
+            <p>Die Challenge-Karten eröffnen in dichten Mikronarrationen überraschende Szenarien und bringen die SpielerInnen dazu, ihre Ideen fortwährend zu transformieren.</p>
           </div>
 
           <div class="card3">
-            <img src="media/moonshot-card-item.png" alt="Moonshot Item-Karte">
+            <img src="media/moonshot-card-item-1.jpg" alt="Moonshot Item-Karte">
           </div>
 
           <div class="card4">
-            <img src="media/moonshot-card-item.png" alt="Moonshot Item-Karte">
+            <img src="media/moonshot-card-item-2.jpg" alt="Moonshot Item-Karte">
           </div>
 
           <div class="card-description-2">
-            <h3>10 Aktions-Karten</h3>
-            <p>Die Aktionskarten sind äußere Störfaktoren, die das Spiel durcheinanderwirbeln und die SpielerInnen aus ihren Routinen herausreißen.</p>
+            <h3>60 Item-Karten</h3>
+            <p>Mit den Item-Karten können die SpielerInnen in den Fluss des Spiels eingreifen, sich selbst verstärken und andere SpielerInnen hacken.</p>
           </div>
 
         </div> <!-- // card-container -->
@@ -139,7 +139,7 @@
 
     <div class="container">
       <div class="content content-wide content-contact">
-        <img src="media/rocket.png" alt="Illustration of a rocket">
+        <img src="media/rocket-illustration.svg" alt="Illustration of a rocket">
         <h2>Kontakt</h2>
         <p>Du willst Moonshot in deinem Unternehmen spielen? Du willst mit uns kooperieren und das Spiel in einem Workshop einsetzen?</p>
 
