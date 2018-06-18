@@ -253,6 +253,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   grid-column-start: 1;
   grid-column-end: span 12;
   grid-row: 1;
+  margin-bottom: 1.5rem;
 }
 @media (min-width: 420px) {
   /* line 124, ../sass/grid.sass */
@@ -260,17 +261,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     grid-column-start: 1;
     grid-column-end: span 6;
     grid-row: 1;
+    margin-bottom: 0;
   }
 }
 
-/* line 133, ../sass/grid.sass */
+/* line 135, ../sass/grid.sass */
 .plan-section2 {
   grid-column-start: 1;
   grid-column-end: span 12;
   grid-row: 2;
 }
 @media (min-width: 420px) {
-  /* line 133, ../sass/grid.sass */
+  /* line 135, ../sass/grid.sass */
   .plan-section2 {
     grid-column-start: 7;
     grid-column-end: span 6;
@@ -278,7 +280,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 
-/* line 142, ../sass/grid.sass */
+/* line 144, ../sass/grid.sass */
 .plan-section1,
 .plan-section2 {
   padding: 1rem;
@@ -287,13 +289,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-radius: 8px;
   box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.07);
 }
-/* line 150, ../sass/grid.sass */
+/* line 152, ../sass/grid.sass */
 .plan-section1:hover img,
 .plan-section2:hover img {
   transform: translateY(-3px) scale(1.01);
 }
 
-/* line 156, ../sass/grid.sass */
+/* line 158, ../sass/grid.sass */
 .plan-section1 img,
 .plan-section2 img {
   transition: all ease 200ms;
