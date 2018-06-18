@@ -106,7 +106,7 @@
 
     <div class="container container-violet">
       <div class="content content-wide">
-        <h2>Plans</h2>
+        <h2>Was wir bieten</h2>
 
         <div class="plan-container">
 
@@ -114,9 +114,10 @@
             <h2 style="text-align: center;">Basic</h2>
             <img src="media/ufo-basic.svg" alt="Illustration of a normal UFO">
             <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+              <li>Spielrunde: Die Teilnehmer durchlaufen spielerisch einen Innovationsprozess</li>
+              <li>Sensibilisierung für die Wichtigkeit adaptiver und agiler Mindsets in Zeiten der Veränderung</li>
+              <li>Impuls zu Gamification und Playfulness in der Unternehmenspraxis</li>
+              <li>Dauer: 0,5 Tage</li>
             </ul>
           </div>
 
@@ -124,9 +125,10 @@
             <h2 style="text-align: center;">Plus</h2>
             <img src="media/ufo-plus.svg" alt="Illustration of a flying UFO">
             <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+              <li>Alle Leistungen aus dem Basic- Angebot</li>
+              <li>Analyse der eigenen Innovationskultur: Identifikation von Treibern und Bremsern für Veränderungsprozesse</li>
+              <li>Co-kreative Entwicklung eines individualisierten Innovationsspiels mithilfe unseres Frameworks</li>
+              <li>Dauer: 2 bis 3 Tage</li>
             </ul>
           </div>
 

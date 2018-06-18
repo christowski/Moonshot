@@ -4,8 +4,7 @@
 // ------------ Cards Box Grid Layout ------------
 // https://css-tricks.com/snippets/css/complete-guide-grid/
 
-.card-container,
-.plan-container
+.card-container
   max-width: 1200px
   display: grid
   grid-template-columns: repeat(4, 1fr)
@@ -108,15 +107,37 @@
 // ----------------
 
 .plan-container
-  grid-gap: 3rem
+  max-width: 1200px
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  grid-gap: 0
+  grid-auto-rows: minmax(100px, auto)
+  @media (min-width: $breakpoint-medium)
+    grid-template-columns: repeat(12, 1fr)
+    grid-gap: 2rem
+    grid-auto-rows: minmax(100px, auto)
+  @media (min-width: $breakpoint-large)
+    grid-template-columns: repeat(12, 1fr)
+    grid-gap: 3rem
+    grid-auto-rows: minmax(100px, auto)
 
 .plan-section1
   grid-column-start: 1
-  grid-column-end: span 6
+  grid-column-end: span 12
+  grid-row: 1
+  @media (min-width: $breakpoint-medium)
+    grid-column-start: 1
+    grid-column-end: span 6
+    grid-row: 1
 
 .plan-section2
-  grid-column-start: 7
-  grid-column-end: span 6
+  grid-column-start: 1
+  grid-column-end: span 12
+  grid-row: 2
+  @media (min-width: $breakpoint-medium)
+    grid-column-start: 7
+    grid-column-end: span 6
+    grid-row: 1
 
 .plan-section1,
 .plan-section2
