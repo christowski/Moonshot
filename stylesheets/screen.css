@@ -607,7 +607,7 @@ ul li {
 @media (min-width: 768px) {
   /* line 211, ../sass/screen.sass */
   .content-contact img {
-    max-width: 130px;
+    max-width: 143px;
     margin: 1rem 3rem 0 0;
   }
 }
