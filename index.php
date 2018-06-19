@@ -97,7 +97,7 @@
 
           <div class="card-description-2">
             <h3>60 Item-Karten</h3>
-            <p>Mit den Item-Karten können die SpielerInnen in den Fluss des Spiels eingreifen, sich selbst verstärken und andere SpielerInnen hacken.</p>
+            <p>Die Item-Karten verkörpern Treiber und Bremser von Innovationsprozessen. Mit ihnen können die SpielerInnen zu HackerInnen werden und die Rahmenbedingungen verändern.</p>
           </div>
 
         </div> <!-- // card-container -->
@@ -125,7 +125,7 @@
             <h2 style="text-align: center;">Plus</h2>
             <img src="media/ufo-plus.svg" alt="Illustration of a flying UFO">
             <ul>
-              <li>Alle Leistungen aus dem Basic- Angebot</li>
+              <li>Alle Leistungen aus dem Basic-Angebot</li>
               <li>Analyse der eigenen Innovationskultur: Identifikation von Treibern und Bremsern für Veränderungsprozesse</li>
               <li>Co-kreative Entwicklung eines individualisierten Innovationsspiels mithilfe unseres Frameworks</li>
               <li>Dauer: 2 bis 3 Tage</li>
@@ -141,7 +141,7 @@
       <div class="content content-wide content-contact">
         <img src="media/rocket-illustration.svg" alt="Illustration of a rocket">
         <h2>Kontakt</h2>
-        <p>Du willst Moonshot in deinem Unternehmen spielen? Du willst mit uns kooperieren und das Spiel in einem Workshop einsetzen?</p>
+        <p>Du hast Interesse an einem unserer Workshop-Formate für dein Unternehmen?</p>
 
         <!-- Encoder: http://robspangler.com/blog/encrypt-mailto-links-to-stop-email-spam/ -->
         <p class="contact-cta">

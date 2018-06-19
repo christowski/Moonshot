@@ -116,6 +116,7 @@
     grid-template-columns: repeat(12, 1fr)
     grid-gap: 2rem
     grid-auto-rows: minmax(100px, auto)
+    padding: 0 1.5rem
   @media (min-width: $breakpoint-large)
     grid-template-columns: repeat(12, 1fr)
     grid-gap: 3rem
@@ -159,3 +160,6 @@
     transition: all ease 200ms
     margin: 0 auto 2rem auto
     display: block
+    max-width: 80px
+    @media (min-width: $breakpoint-medium)
+      max-width: 120px

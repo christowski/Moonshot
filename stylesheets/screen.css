@@ -237,6 +237,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 2rem;
     grid-auto-rows: minmax(100px, auto);
+    padding: 0 1.5rem;
   }
 }
 @media (min-width: 768px) {
@@ -248,7 +249,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 
-/* line 124, ../sass/grid.sass */
+/* line 125, ../sass/grid.sass */
 .plan-section1 {
   grid-column-start: 1;
   grid-column-end: span 12;
@@ -256,7 +257,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 1.5rem;
 }
 @media (min-width: 420px) {
-  /* line 124, ../sass/grid.sass */
+  /* line 125, ../sass/grid.sass */
   .plan-section1 {
     grid-column-start: 1;
     grid-column-end: span 6;
@@ -265,14 +266,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 
-/* line 135, ../sass/grid.sass */
+/* line 136, ../sass/grid.sass */
 .plan-section2 {
   grid-column-start: 1;
   grid-column-end: span 12;
   grid-row: 2;
 }
 @media (min-width: 420px) {
-  /* line 135, ../sass/grid.sass */
+  /* line 136, ../sass/grid.sass */
   .plan-section2 {
     grid-column-start: 7;
     grid-column-end: span 6;
@@ -280,7 +281,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 
-/* line 144, ../sass/grid.sass */
+/* line 145, ../sass/grid.sass */
 .plan-section1,
 .plan-section2 {
   padding: 1rem;
@@ -289,18 +290,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-radius: 8px;
   box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.07);
 }
-/* line 152, ../sass/grid.sass */
+/* line 153, ../sass/grid.sass */
 .plan-section1:hover img,
 .plan-section2:hover img {
   transform: translateY(-3px) scale(1.01);
 }
 
-/* line 158, ../sass/grid.sass */
+/* line 159, ../sass/grid.sass */
 .plan-section1 img,
 .plan-section2 img {
   transition: all ease 200ms;
   margin: 0 auto 2rem auto;
   display: block;
+  max-width: 80px;
+}
+@media (min-width: 420px) {
+  /* line 159, ../sass/grid.sass */
+  .plan-section1 img,
+  .plan-section2 img {
+    max-width: 120px;
+  }
 }
 
 /* line 7, ../sass/screen.sass */
