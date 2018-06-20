@@ -83,7 +83,7 @@
           </div>
 
           <div class="card-description-1">
-            <h3>40 Challenge-Karten</h3>
+            <h3>Challenge-Karten</h3>
             <p>Die Challenge-Karten eröffnen in dichten Mikronarrationen überraschende Szenarien und bringen die SpielerInnen dazu, ihre Ideen fortwährend zu transformieren.</p>
           </div>
 
@@ -96,7 +96,7 @@
           </div>
 
           <div class="card-description-2">
-            <h3>60 Item-Karten</h3>
+            <h3>Item-Karten</h3>
             <p>Die Item-Karten verkörpern Treiber und Bremser von Innovationsprozessen. Mit ihnen können die SpielerInnen zu HackerInnen werden und die Rahmenbedingungen verändern.</p>
           </div>
 
