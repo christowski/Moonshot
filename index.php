@@ -65,7 +65,13 @@
       </div>
     </div>
 
-    <div class="container container-silver">
+    <div class="container container-image container-silver">
+      <div class="content-superwide">
+        <img src="media/moonshot-spielsituation.jpg" title="Moonshot Spielbrett und Spielkarten" alt="Bild vom Moonshot Spielbrett und Spielkarten von oben">
+      </div>
+    </div>
+
+    <div class="container">
       <div class="content-superwide">
 
         <div class="content">
