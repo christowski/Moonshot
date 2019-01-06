@@ -11,7 +11,10 @@ This is a simple landing page for the innovation game MOONSHOT – a game to exp
 * All images live in the /media folder
 * The font is loaded via Typekit
 
-## Requirements
-1. To preview the website locally, you’ll need to run a local server like Mamp.
+## Installation
+1. To preview the website locally, you’ll need to run a local server like Mamp (oldschool, I know …).
 2. I wrote the styles for this website in Sass, so to continue working with Sass, you’ll need to have a compiler (I used Compass).
-3. That’s pretty much it.
+2.1 [Install Ruby and compass](http://compass-style.org/install/)
+3. ```$ git clone https://github.com/christowski/Moonshot.git```
+4. ```$ cd [The folder’s location]```
+5. ```compass watch```
