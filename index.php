@@ -62,6 +62,8 @@
         <p>Moonshot macht den Innovationsprozess spielerisch erfahrbar. Die SpielerInnen treten mit ihren Ideen gegeneinander an und transformieren sie fortwährend anhand von unterschiedlichen <span>Kreativitätstechniken.</span> Das erfordert assoziatives Denken, eine hohe Revisionskompetenz und die Bereitschaft, sich ständig auf wechselnde Rahmenbedingungen einzulassen. So entsteht ein Flirren, das den SpielerInnen radikal neue Perspektiven auf ihre Ideen eröffnet und zuvor Ungesehenes an die Oberfläche wirbelt.</p>
 
         <p>Ziel von Moonshot ist es nicht, marktreife Produkte zu produzieren, sondern <span>Metakompetenzen</span> zu vermitteln, die für schöpferische Prozesse in komplexen Zeiten unabdingbar sind. Und wenn doch mal das nächste Unicorn dabei ist: umso besser.</p>
+
+        <p>Erfahre mehr darüber, <a href="https://medium.com/moonshot-the-innovation-game/warum-wir-das-innovationsspiel-moonshot-entwickelt-haben-46d2ed1e2cce">warum wir das Spiel entwickelt haben.</a></p>
       </div>
     </div>
 
