@@ -299,9 +299,9 @@ ul {
   }
 }
 
-p.contact-cta a,
-p.contact-cta a:active,
-p.contact-cta a:visited,
+.cta-big a,
+.cta-big a:active,
+.cta-big a:visited,
 button.cta,
 button.cta:active,
 button.cta:visited {
@@ -324,13 +324,21 @@ button.cta:visited {
   }
 }
 
-p.contact-cta a:focus,
-p.contact-cta a:hover,
+.cta-big a:focus,
+.cta-big a:hover,
 button.cta:focus,
 button.cta:hover {
   background: $charcoal;
   transform: translateY(-2px);
   cursor: pointer;
+}
+
+.cta-big--center {
+  text-align: center;
+  margin-top: 1.4rem;
+  @media (min-width: $breakpoint-large) {
+    margin-top: 3rem;
+  }
 }
 
 // ------------ Contaxt Box Grid Layout ------------

@@ -63,7 +63,7 @@
 
         <p>Ziel von Moonshot ist es nicht, marktreife Produkte zu produzieren, sondern <span>Metakompetenzen</span> zu vermitteln, die für schöpferische Prozesse in komplexen Zeiten unabdingbar sind. Und wenn doch mal das nächste Unicorn dabei ist: umso besser.</p>
 
-        <p>Erfahre mehr darüber, <a href="https://medium.com/moonshot-the-innovation-game/warum-wir-das-innovationsspiel-moonshot-entwickelt-haben-46d2ed1e2cce">warum wir das Spiel entwickelt haben.</a></p>
+        <p><a href="https://medium.com/moonshot-the-innovation-game">Erfahre mehr über das Spiel.</a></p>
       </div>
     </div>
 
@@ -109,6 +109,11 @@
           </div>
 
         </div> <!-- // card-container -->
+
+        <div class="cta-big cta-big--center">
+          <a title="Call to Action" href="#">Jetzt bestellen</a>
+        </div>
+
       </div> <!-- // content-superwide -->
     </div> <!-- // container -->
 
@@ -127,6 +132,11 @@
               <li>Impuls zu Gamification und Playfulness in der Unternehmenspraxis</li>
               <li>Dauer: 0,5 Tage</li>
             </ul>
+
+            <!--div class="cta-big">
+              <a title="Call to Action" href="#">Call to Action</a>
+            </div-->
+
           </div>
 
           <div class="plan-section2">
@@ -138,6 +148,11 @@
               <li>Co-kreative Entwicklung eines individualisierten Innovationsspiels mithilfe unseres Frameworks</li>
               <li>Dauer: 2 bis 3 Tage</li>
             </ul>
+
+            <!--div class="cta-big">
+              <a title="Call to Action" href="#">Call to Action</a>
+            </div-->
+
           </div>
 
         </div> <!-- // plan-container -->
@@ -152,9 +167,9 @@
         <p>Du hast Interesse an einem unserer Workshop-Formate für dein Unternehmen?</p>
 
         <!-- Encoder: http://robspangler.com/blog/encrypt-mailto-links-to-stop-email-spam/ -->
-        <p class="contact-cta">
+        <div class="cta-big">
           <a title="Schreib’ uns eine Mail" href="&#x6d;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#104;&#101;&#108;&#108;&#111;&#x40;&#116;&#x68;&#101;&#105;&#110;&#110;&#x6f;&#118;&#x61;&#116;&#x69;&#x6f;&#110;&#103;&#x61;&#x6d;&#101;&#46;&#100;&#x65;">Schreib’ uns eine Mail</a>
-        </p>
+        </div>
       </div>
     </div>
 
