@@ -19,7 +19,8 @@
   <title>MOONSHOT – The Innovation Game</title>
 
   <!-- STYLESHEETS -->
-  <link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
+  <link rel="stylesheet" href="stylesheets/screen.css">
+  <link rel="stylesheet" href="stylesheets/modal-slick.css">
   <link rel="stylesheet" href="https://use.typekit.net/top2kgq.css">
 
   <!-- JAVSCRIPT -->
@@ -110,9 +111,7 @@
 
         </div> <!-- // card-container -->
 
-        <div class="cta-big cta-big--center">
-          <a title="Call to Action" href="#">Jetzt bestellen</a>
-        </div>
+        <?php include 'modal.php' ?>
 
       </div> <!-- // content-superwide -->
     </div> <!-- // container -->
