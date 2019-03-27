@@ -1,11 +1,3 @@
-<!-- // cta modal -->
-<div class="container">
-    <div class="cta-big cta-big--center">
-        <a onclick="document.getElementById('formmodal').style.display='block'" class="">Jetzt ausleihen</a>
-    </div>
-</div>
-
-
 <!-- // modal -->
 <div id="formmodal" class="w3-modal">
     <div class="w3-modal-content w3-animate-opacity">
