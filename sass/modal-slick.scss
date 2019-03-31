@@ -38,7 +38,7 @@
 }
 
 .w3-modal-content header {
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
   h2 {
     margin-bottom: 0;
   }
@@ -50,7 +50,7 @@
 }
 
 .w3-section {
-  padding: 2rem;
+  padding: 1.75rem;
 
   input, textarea {
     display: block;
@@ -71,13 +71,54 @@
     padding-top: 0.875rem;
   }
 
-  input[type='checkbox'] {
-    display: inline-block;
-    width: auto;
+  input[type="submit"] {
+    color: white;
+    background: $primary;
+    border: none;
   }
 
-}
+  .modal-checkbox {
+    display: table;
+  }
 
+  .inline-label-form {
+    > label {
+      width: 14%;
+      display: table-cell;
+      vertical-align: top;
+    }
+
+    .field-boxes {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      max-width: 100%;
+    }
+
+    label {
+      display: table;
+      width: 100%;
+      flex-basis: 100%;
+      text-align: left;
+      vertical-align: top;
+      margin-bottom: 1rem;
+      font-size: 90%;
+      > * {
+        display: table-cell;
+        &:last-child {
+          width: 100%;
+        }
+      }
+    }
+    input[type='checkbox'] {
+      display: inline;
+      width: auto;
+      height: auto;
+      margin-right: 0.75rem;
+    }
+
+  }
+} // end .w3-section
 
 .w3-animate-fading {
     animation: fading 10s infinite;
