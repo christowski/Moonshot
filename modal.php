@@ -4,7 +4,9 @@
 
         <header>
             <span onclick="document.getElementById('formmodal').style.display='none'"
-            class="">Close</span>
+            class="">
+              <img src="media/icon-close.svg" alt="Close" title="Close this modal">
+            </span>
             <h2>Hol’ Moonshot in dein Unternehmen!</h2>
         </header>
 
