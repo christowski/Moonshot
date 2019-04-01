@@ -25,7 +25,7 @@
 
                   <label>
                     <input class="" type="checkbox" required>
-                    <span>Ich bin damit einverstanden, dass meine Angaben zur Beantwortung meiner Anfrage elektronisch erhoben und gespeichert werden. Hier geht es zur Datenschutzerklärung.</span>
+                    <span>Ich bin damit einverstanden, dass meine Angaben zur Beantwortung meiner Anfrage elektronisch erhoben und gespeichert werden. Hier geht es zur <a href="impressum.php">Datenschutzerklärung</a>.</span>
                   </label>
 
                   <label>
