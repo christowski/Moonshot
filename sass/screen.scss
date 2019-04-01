@@ -1,6 +1,7 @@
 @import "compass/reset";
 @import "variables.scss";
 @import "grid.scss";
+@import "mixins.scss";
 
 // ------------ Layout Basics ------------
 
@@ -309,33 +310,18 @@ ul {
 .cta-big a:visited,
 button.cta,
 button.cta:active,
-button.cta:visited {
-  background: $primary;
-  border: none;
-  color: white;
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
-  padding: 0.75rem 0.8rem;
-  margin: 1rem 0 1rem 0;
-  display: inline-block;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: all ease 200ms;
-  font-size: inherit;
-  line-height: 1rem;
-
-  @media (min-width: $breakpoint-large) {
-    padding: 0.9rem 1.3rem 1rem;
-    border-radius: 8px;
-  }
+button.cta:visited,
+input[type="submit"] {
+  @include cta-big;
 }
 
 .cta-big a:focus,
 .cta-big a:hover,
 button.cta:focus,
-button.cta:hover {
-  background: $charcoal;
-  transform: translateY(-2px);
-  cursor: pointer;
+button.cta:hover,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  @include cta-big--hover;
 }
 
 .cta-big--center {

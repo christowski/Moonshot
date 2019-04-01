@@ -1,4 +1,5 @@
 @import "variables.scss";
+@import "mixins.scss";
 
 // Hides Modal per default
 .w3-modal {
@@ -52,7 +53,9 @@
 .w3-section {
   padding: 1.75rem;
 
-  input, textarea {
+  input[type="text"],
+  input[type="mail"],
+  textarea {
     display: block;
     width: calc(100% - 1.75rem);
     height: 2.5rem;
@@ -72,9 +75,11 @@
   }
 
   input[type="submit"] {
-    color: white;
-    background: $primary;
-    border: none;
+    @include cta-big;
+    width: 100%;
+    &:hover, &:focus {
+      @include cta-big--hover;
+    }
   }
 
   .modal-checkbox {
