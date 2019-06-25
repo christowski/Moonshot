@@ -3,9 +3,9 @@
 // ======= Konfiguration:
 
 $mailTo = 'mail@christowski.de';
-$mailFrom = '"FormMailer" <mail@christophrauscher.de>';
-$mailSubject    = 'Feedback';
-$returnPage = 'https://christowski.de/blog';
+$mailFrom = 'mail@christophrauscher.de';
+$mailSubject    = 'Ich möchte MOONSHOT ausleihen!';
+$returnPage = 'index.php';
 $returnErrorPage = '404.php';
 $mailText = "";
 
