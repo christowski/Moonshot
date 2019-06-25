@@ -12,13 +12,13 @@
 
           <div class="w3-section">
             <form class="" action="formmailer.php" method="post">
-              <input class="" type="text" placeholder="Name *" name="name" required>
-              <input class="" type="mail" placeholder="E-Mail *" name="mail" required>
-              <input class="" type="text" placeholder="Organisation *" name="organisation" required>
-              <input class="" type="text" placeholder="Straße und Hausnummer *" name="street" required>
-              <input class="" type="text" placeholder="Postleitzahl, Ort *" name="street" required>
+              <input class="" type="text" placeholder="Name *" name="Name" required>
+              <input class="" type="mail" placeholder="E-Mail *" name="Mail" required>
+              <input class="" type="text" placeholder="Organisation *" name="Organisation" required>
+              <input class="" type="text" placeholder="Straße und Hausnummer *" name="Strasse" required>
+              <input class="" type="text" placeholder="Postleitzahl, Ort *" name="Ort" required>
 
-              <textarea class="" id="subject" type="text" name="subject" placeholder="Möchtest du uns noch etwas sagen?" style="height:50px"></textarea>
+              <textarea class="" id="subject" type="text" name="Nachricht" placeholder="Möchtest du uns noch etwas sagen?" style="height:50px"></textarea>
 
               <div class="modal-checkbox inline-label-form">
                 <div class="field-boxes">
@@ -36,7 +36,7 @@
                 </div>
               </div>
 
-              <input type="submit" name="absenden" value="Absenden">
+              <input type="submit" value="Absenden">
             </form>
           </div>
 

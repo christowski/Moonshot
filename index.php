@@ -133,7 +133,7 @@
 
     <div class="container container-violet">
       <div class="content content-wide">
-        <h2>Was wir bieten</h2>
+        <h2>Unsere Workshop-Formate</h2>
 
         <div class="plan-container">
 

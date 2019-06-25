@@ -5,8 +5,8 @@
 
 // ======= Konfiguration:
 
-$mailTo = 'mail@christowski.de';
-$mailFrom = 'mail@christophrauscher.de';
+$mailTo = 'hello@theinnovationgame.de';
+$mailFrom = 'hello@theinnovationgame.de';
 $mailSubject    = 'Ich möchte MOONSHOT ausleihen!';
 $returnPage = 'index.php';
 $returnErrorPage = '404.php';

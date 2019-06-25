@@ -5,7 +5,7 @@
 .w3-modal {
     z-index: 3;
     display: none;
-    padding-top: 3rem;
+    padding-top: 0.5rem;
     position: fixed;
     left: 0;
     top: 0;
@@ -17,6 +17,9 @@
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
     overflow-y: scroll;
+    @media (min-width: 600px) {
+      padding-top: 3rem;
+    }
 }
 
 .w3-modal-content {
@@ -51,7 +54,12 @@ body > .w3-modal {
 
   h2 {
     margin-bottom: 0;
+    line-height: 1;
+    @media (max-width: 600px) {
+      font-size: 85%;
+    }
   }
+
 
   span  img {
     position: absolute;
@@ -71,7 +79,7 @@ body > .w3-modal {
 }
 
 .w3-section {
-  padding: 1.75rem 1.75rem 1rem 1.75rem;
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
 
   input[type="text"],
   input[type="mail"],
@@ -126,8 +134,8 @@ body > .w3-modal {
       flex-basis: 100%;
       text-align: left;
       vertical-align: top;
-      margin-bottom: 1rem;
-      font-size: 90%;
+      margin-bottom: 0.5rem;
+      font-size: 80%;
       > * {
         display: table-cell;
         &:last-child {
