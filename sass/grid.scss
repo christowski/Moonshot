@@ -138,7 +138,7 @@
 
 // ----------------
 
-.plan-container {
+.duo_section--wide {
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -159,7 +159,7 @@
   }
 }
 
-.plan-section1 {
+.duo_section--one {
   grid-column-start: 1;
   grid-column-end: span 12;
   grid-row: 1;
@@ -173,7 +173,7 @@
   }
 }
 
-.plan-section2 {
+.duo_section--two {
   grid-column-start: 1;
   grid-column-end: span 12;
   grid-row: 2;
@@ -185,9 +185,34 @@
   }
 }
 
-.plan-section1,
-.plan-section2 {
+.duo_section--one,
+.duo_section--two {
   padding: 1rem;
+
+}
+
+
+// ---------------- Styles for Packshot Section
+
+.packshot_section--one {
+  img {
+    max-width: 100%;
+    mix-blend-mode: multiply;
+  }
+}
+
+.packshot_section--two {
+  h2 {
+    @media (min-width: $breakpoint-medium) {
+      text-align: left;
+    }
+  }
+}
+
+// ---------------- Styles for Plan Section
+
+.plan_section--one,
+.plan_section--two {
   background: $primary;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 8px;
@@ -198,10 +223,7 @@
       transform: translateY(-3px) scale(1.01);
     }
   }
-}
 
-.plan-section1,
-.plan-section2 {
   img {
     transition: all ease 200ms;
     margin: 0 auto 2rem auto;
